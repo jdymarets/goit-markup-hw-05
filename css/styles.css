@@ -354,10 +354,12 @@ body {
 }
 .social-icon {
   fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
 }
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   fill: var(--third-text-color);
+  
 }
 .social-link {
   width: 100%;
@@ -388,7 +390,7 @@ body {
 }
 .clients-icon {
   fill: #afb1b8;
-  transition: border-color 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .clients-link {
@@ -399,6 +401,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: border-color 250ms var(--timing-function);
 }
 .clients-link:hover,
 .clients-link:focus {
